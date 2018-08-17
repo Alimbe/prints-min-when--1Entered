@@ -1,0 +1,33 @@
+packagpackage javaapplication11;
+
+import java.util.Scanner;
+
+
+
+/**
+ *
+ * @author Ali
+ */
+public class JavaApplication11 {
+
+    /**
+     * @param args the command line arguments
+     */
+    //æÇÑÏ ÔÏ ˜æ˜ ÊÑíä ÚÏÏ ÑÇ ãí äæíÓÏ-1åäÇãí ˜å
+    public static void main(String[] args) {
+    System.out.println("please Enter the Minumbers:");
+    int Min,i = 0;
+    Scanner input=new Scanner(System.in);
+    Min=input.nextInt();
+    while (i!=-1){
+        i=input.nextInt();
+        if (i<Min && i!= -1){
+        //æÇÑÏ ÔæÏ ãäİí í˜ ÑÇ Èå ÚäæÇä ˜ãÊÑíä ÚÏÏ ãí íÑÏ-1æä˜å ÏÑ Çíä ÕæÑÊ ÇÑ 
+          Min=i;  
+        }
+    }
+    System.out.println("Minimum is: "+Min);
+            
+}
+ 
+}
